@@ -12,7 +12,7 @@ import { cn } from '@/lib/utils';
 import { Github } from 'lucide-react';
 
 const navList = [
-  { name: 'D5BL5G', href: '/blog' },
+  { name: 'marsboy', href: '/blog' },
   { name: 'About', href: '/about' },
 ];
 
@@ -52,7 +52,7 @@ export const Header = () => {
         <div className='flex gap-3'>
           <ThemeSwitch />
           <Button asChild variant='ghost' size='icon'>
-            <Link href='https://github.com/d5br5' target='_blank'>
+            <Link href='https://github.com/marsboy02' target='_blank'>
               <Github className='size-[1.2rem]' />
             </Link>
           </Button>

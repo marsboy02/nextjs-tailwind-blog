@@ -2,73 +2,82 @@ import IconGithub from '@/components/icon/Github';
 import IconLinkedin from '@/components/icon/LinkedIn';
 
 export const RESUME_DATA_EN = {
-  name: 'Doh Kim',
-  initials: 'DH',
+  name: 'Hyeongjun Kang',
+  initials: 'HJ',
   location: 'Seoul, South Korea, KST',
   locationLink: 'https://www.google.com/maps/place/seoul',
-  about: 'Detail-oriented Front-end Developer',
+  about: 'Aspiring DevOps Engineer aiming to be the best supporter',
   summary:
-    'I believe that web development is the most powerful means to quickly bring ideas to life as services.\nWith a mindset of creating a work of art, I pay attention to detail and simplicity.\nI am diligently studying JavaScript, which is used across various platforms.',
-  avatarUrl: 'https://avatars.githubusercontent.com/u/40906871?v=4',
+    'I take pride in being able to help my team members. Looking back, I always played the role of a supporter when playing games with my team. I aim to continue this trait by becoming a reliable DevOps engineer who supports my team.',
+  avatarUrl: 'https://avatars.githubusercontent.com/u/86903678?v=4',
   contact: {
-    email: 'ehgud456456@naver.com',
+    email: 'marsboy0619@gmail.com',
     social: [
       {
         name: 'GitHub',
-        url: 'https://github.com/d5br5',
+        url: 'https://github.com/marsboy02',
         icon: IconGithub,
       },
       {
         name: 'LinkedIn',
-        url: 'https://www.linkedin.com/in/dohkim777/',
+        url: 'https://www.linkedin.com/in/hyeongjun-kang/',
         icon: IconLinkedin,
       },
     ],
   },
   education: [
     {
-      school: 'Seoul National University',
-      degree: "Bachelor's Degree in Mechanical Engineering and Business Administration",
-      start: '2015',
-      end: '2022',
+      school: 'University of Seoul',
+      degree: "Bachelor's Degree in Electrical and Computer Engineering",
+      start: '2021',
+      end: '2025',
     },
   ],
   work: [
     {
-      company: 'Adena Software',
-      link: 'https://www.adenasoft.com/',
-      title: 'Web Front-end Developer',
-      start: '2023. 03.',
+      company: 'Munto',
+      link: 'https://www.munto.kr/',
+      title: 'Software Engineer',
+      start: '2025. 03.',
       end: null,
       description:
-        'A B2B forex/payment fintech company operating a white-label cryptocurrency exchange',
+        'Munto is a community platform based on interests, providing cultural services such as social gatherings, clubs, and challenges.',
       points: [
-        'Development of cryptocurrency spot, futures exchanges, and admin pages.',
-        'Implementation of dark/light mode',
-        'Integration of third-party payment services using pop-ups.',
-        'Search Engine Optimization (SEO)',
-        'Improvement of trading chart usability and code structure.',
-        'Visualization of statistical data using Chart.js.',
+        'Introduced Grafana and Elasticsearch dashboards',
+        'Developed backend for VOD services',
       ],
     },
     {
-      company: 'Tmax Fintech',
-      link: 'https://www.tmax.co.kr/tmaxfintech',
-      title: 'Web Front-end Developer',
-      start: '2022. 02.',
-      end: '2023. 02.',
+      company: 'UGL Soft',
+      link: 'https://ubai.uos.ac.kr/',
+      title: 'Data Center Manager',
+      start: '2024. 07.',
+      end: '2025. 01.',
       description:
-        'A Fintech B2B/C BaaS specialized company providing core banking and robo-advisors',
+        "Managed the data center at the University of Seoul's Urban Science Big Data AI Research Institute.",
       points: [
-        'Frontend development of asset allocation and trading simulator.',
-        'Creation of a React-based Single Page Application (SPA) and state management using Redux.',
-        'Code migration from Vue.js to React.js.',
-        'Optimization of frontend rendering performance.',
-        'Organization of git commit and branch rules.',
+        'Managed a supercomputer cluster of 106 nodes using Slurm',
+        'Built a server utilization monitoring dashboard',
+        'Worked on L2 and L1 networks based on InfiniBand',
+      ],
+    },
+    {
+      company: 'UOS Life',
+      link: 'https://www.uoslife.team',
+      title: 'Software Engineer',
+      start: '2022. 03.',
+      end: '2024. 06.',
+      description:
+        'UOS Life is a non-profit organization that creates utility and community services for university students.',
+      points: [
+        'Developed a dating and meeting matching service based on the Hospital-Resident algorithm paper',
+        'Built a CI/CD pipeline in an ArgoCD-based deployment environment',
+        'Developed a notification scraping and push service using K8s Cronjob',
+        'Implemented an authentication system based on Spring Security',
       ],
     },
   ],
-  skills: ['Javascript', 'Typescript', 'React.js', 'Vue.js', 'Next.js'],
+  skills: ['Kubernetes', 'AWS', 'Nest.js', 'Next.js', 'Spring Boot', 'Python'],
 } as const;
 
 export type RESUME = typeof RESUME_DATA_EN;
