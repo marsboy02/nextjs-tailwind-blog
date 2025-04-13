@@ -48,7 +48,7 @@ export const RESUME_DATA_EN = {
       ],
     },
     {
-      company: 'UGL Soft',
+      company: 'UGLSoft',
       link: 'https://ubai.uos.ac.kr/',
       title: 'Data Center Manager',
       start: '2024. 07.',
@@ -56,13 +56,16 @@ export const RESUME_DATA_EN = {
       description:
         "Managed the data center at the University of Seoul's Urban Science Big Data AI Research Institute.",
       points: [
-        'Managed a supercomputer cluster of 106 nodes using Slurm',
         'Built a server utilization monitoring dashboard',
+        {
+          title: 'Managed a supercomputer cluster of 106 nodes using Slurm',
+          slug: 'ubai/cluster',
+        },
         'Worked on L2 and L1 networks based on InfiniBand',
       ],
     },
     {
-      company: 'UOS Life',
+      company: 'UOSLife',
       link: 'https://www.uoslife.team',
       title: 'Software Engineer',
       start: '2022. 03.',

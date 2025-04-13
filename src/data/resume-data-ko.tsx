@@ -53,8 +53,11 @@ export const RESUME_DATA_KO = {
       description:
         '기반으로 서울시립대학교 도시과학빅데이터AI연구원에서 데이터센터를 매니징하는 역할을 맡았습니다.',
       points: [
-        'Slurm을 이용해 106대의 슈퍼컴퓨터 클러스터 관리',
         'Server Utilization 모니터링 대시보드 구축',
+        {
+          title: 'Slurm을 이용해 106대의 슈퍼컴퓨터 클러스터 관리',
+          slug: 'ubai/cluster',
+        },
         '인피니밴드 기반의 L2 및 L1 네트워크 작업',
       ],
     },
