@@ -37,7 +37,7 @@ export const RESUME_DATA_KO = {
     {
       company: '문토',
       link: 'https://www.munto.kr/',
-      title: '소프트웨어 엔지니어',
+      title: '데브옵스 엔지니어',
       start: '2025. 03.',
       end: null,
       description:
@@ -47,11 +47,11 @@ export const RESUME_DATA_KO = {
     {
       company: '유지엘소프트',
       link: 'https://ubai.uos.ac.kr/',
-      title: '데이터센터 매니저',
+      title: '시스템 엔지니어',
       start: '2024. 07.',
       end: '2025. 01.',
       description:
-        '기반으로 서울시립대학교 도시과학빅데이터AI연구원에서 데이터센터를 매니징하는 역할을 맡았습니다.',
+        '서울시립대학교 도시과학빅데이터AI연구원에서 연구를 위한 슈퍼컴퓨터 클러스터를 관리하였습니다.',
       points: [
         'Server Utilization 모니터링 대시보드 구축',
         {
