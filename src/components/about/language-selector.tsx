@@ -15,6 +15,7 @@ export default function LanguageSelector({ className }: { className?: string }) 
 
   const isKo = pathname.endsWith('/ko');
   const isEn = pathname.endsWith('/en');
+  const isJa = pathname.endsWith('/ja');
 
   // useEffect only runs on the client, so now we can safely show the UI
   useEffect(() => {
@@ -27,14 +28,16 @@ export default function LanguageSelector({ className }: { className?: string }) 
 
   const onSelectChange = (value: string) => {
     if (value === 'ko') {
-      router.push(pathname.replace(/\/en$/, '/ko'));
+      router.push(pathname.replace(/\/en|\/ja$/, '/ko'));
+    } else if (value === 'en') {
+      router.push(pathname.replace(/\/ko|\/ja$/, '/en'));
     } else {
-      router.push(pathname.replace(/\/ko$/, '/en'));
+      router.push(pathname.replace(/\/en|\/ko$/, '/ja'));
     }
   };
 
   return (
-    <S.Select onValueChange={onSelectChange} defaultValue={isEn ? 'en' : 'ko'}>
+    <S.Select onValueChange={onSelectChange} defaultValue={isEn ? 'en' : isKo ? 'ko' : 'ja'}>
       <S.SelectTrigger className={cn('w-fit gap-2', className)}>
         <GlobeIcon className='size-3.5' />
         <S.SelectValue />
@@ -45,6 +48,9 @@ export default function LanguageSelector({ className }: { className?: string }) 
         </S.SelectItem>
         <S.SelectItem className='flex justify-between' disabled={isEn} value='en'>
           English
+        </S.SelectItem>
+        <S.SelectItem className='flex justify-between' disabled={isJa} value='ja'>
+          日本語
         </S.SelectItem>
       </S.SelectContent>
     </S.Select>
