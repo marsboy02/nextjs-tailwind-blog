@@ -35,14 +35,28 @@ export const RESUME_DATA_JA = {
   ],
   work: [
     {
-      company: 'Munto',
-      link: 'https://www.munto.kr/',
-      title: 'DevOpsエンジニア',
-      start: '2025. 03.',
+      company: 'チームスパルタ',
+      link: 'https://www.teamsparta.com/',
+      title: 'ソフトウェアエンジニア',
+      start: '2025. 07.',
       end: null,
       description:
+        'チームスパルタは誰もが大きなことを成し遂げられる世界を作るために努力しています。',
+      points: ['Next.jsおよびNest.js基盤のフルスタック開発'],
+    },
+    {
+      company: 'Munto',
+      link: 'https://www.munto.kr/',
+      title: 'ソフトウェアエンジニア',
+      start: '2025. 03.',
+      end: '2025. 06.',
+      description:
         'Muntoは興味ベースのコミュニティプラットフォームで、ソーシャルリング、クラブ、チャレンジなどの文化サービスを提供しています。',
-      points: ['Grafanaおよびelasticsearchダッシュボードの導入', 'VODサービスのバックエンド開発'],
+      points: [
+        'AWSの設計、構築、運営および最適化によりAWS月間運営費用を42%削減',
+        'ECS基盤のCI/CDパイプライン構築',
+        'AWSインフラ運営責任者としてマネージドサービスプロバイダー（MSP）との契約管理',
+      ],
     },
     {
       company: 'UGLSoft',

@@ -35,14 +35,27 @@ export const RESUME_DATA_KO = {
   ],
   work: [
     {
+      company: '팀스파르타',
+      link: 'https://www.teamsparta.com/',
+      title: '소프트웨어 엔지니어',
+      start: '2025. 07.',
+      end: null,
+      description: '팀스파르타는 누구나 큰일낼 수 있는 세상을 만들기 위해 노력합니다.',
+      points: ['next.js 및 nest.js 기반의 풀스택 개발'],
+    },
+    {
       company: '문토',
       link: 'https://www.munto.kr/',
-      title: '데브옵스 엔지니어',
+      title: '소프트웨어 엔지니어',
       start: '2025. 03.',
-      end: null,
+      end: '2025. 06.',
       description:
         '문토는 관심사 기반의 커뮤니티 플랫폼으로 소셜링이나 클럽, 챌린지 등의 문화 서비스를 제공합니다.',
-      points: ['그라파나 및 엘라스틱서치 대시보드 도입', 'VOD 서비스 백엔드 개발'],
+      points: [
+        'AWS의 설계, 구축, 운영 및 최적화를 통해 AWS 월별 운영 비용을 42% 절감',
+        'ECS 기반의 CI/CD 파이프라인 구축',
+        'AWS 인프라 운영 총괄자로서 매니지드 서비스 제공업체(MSP)와의 계약 관리',
+      ],
     },
     {
       company: '유지엘소프트',

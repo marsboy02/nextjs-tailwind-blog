@@ -35,26 +35,36 @@ export const RESUME_DATA_EN = {
   ],
   work: [
     {
+      company: 'TeamSparta',
+      link: 'https://www.teamsparta.com/',
+      title: 'Software Engineer',
+      start: '2025. 07.',
+      end: null,
+      description: 'TeamSparta strives to create a world where anyone can make a big impact.',
+      points: ['Full-stack development based on Next.js and Nest.js'],
+    },
+    {
       company: 'Munto',
       link: 'https://www.munto.kr/',
       title: 'Software Engineer',
       start: '2025. 03.',
-      end: null,
+      end: '2025. 06.',
       description:
         'Munto is a community platform based on interests, providing cultural services such as social gatherings, clubs, and challenges.',
       points: [
-        'Introduced Grafana and Elasticsearch dashboards',
-        'Developed backend for VOD services',
+        'Reduced AWS monthly operating costs by 42% through design, construction, operation and optimization of AWS',
+        'Built ECS-based CI/CD pipeline',
+        'Managed contracts with Managed Service Providers (MSP) as AWS infrastructure operations manager',
       ],
     },
     {
       company: 'UGLSoft',
       link: 'https://ubai.uos.ac.kr/',
-      title: 'Data Center Manager',
+      title: 'System Engineer',
       start: '2024. 07.',
       end: '2025. 01.',
       description:
-        "Managed the data center at the University of Seoul's Urban Science Big Data AI Research Institute.",
+        "Managed supercomputer clusters for research at the University of Seoul's Urban Science Big Data AI Research Institute.",
       points: [
         'Built a server utilization monitoring dashboard',
         {
